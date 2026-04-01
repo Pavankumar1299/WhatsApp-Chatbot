@@ -22,11 +22,9 @@ public class WebhookController {
         String replyText;
         switch (incomingMessage) {
             case "hi":
-            case "hello":
                 replyText = "Hello! Welcome to our simulated WhatsApp bot.";
                 break;
             case "bye":
-            case "goodbye":
                 replyText = "Goodbye! Have a great day.";
                 break;
             default:
